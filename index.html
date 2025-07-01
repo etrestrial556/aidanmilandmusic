@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aidan Miland | Saxophonist & Composer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      header img {
+        width: 100px;
+      }
+      .container {
+        padding: 0 1rem;
+      }
+      iframe {
+        height: 300px;
+      }
+    }
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 200px;
+      border-radius: 10px;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      color: #111;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .bio, .contact, .music {
+      line-height: 1.6;
+    }
+    .social a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #555;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 350px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Aidan Miland</h1>
+  <p>Saxophonist & Composer</p>
+  <img src="profile.jpg" alt="Aidan Miland playing saxophone">
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#music">Music</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <section id="about" class="section bio">
+    <h2>About</h2>
+    <p>Aidan Miland is a saxophonist and composer based in Minnesota. He is currently pursuing a Bachelor's degree in Music Performance at Concordia College, where he continues to develop his artistry and musicianship. With over 11 years of experience on the saxophone, Aidan actively gigs across the Minnesota music scene and composes music for both jazz and wind ensembles. Aidan is also a multi-instrumentalist, playing bass, guitar, flute, clarinet, and drums. Outside of music, he enjoys cooking and going on bike rides.</p>
+  </section>
+
+  <section id="music" class="section music">
+    <h2>Music & Videos</h2>
+    <p>Check out Aidan's music and performances:</p>
+    <p><a href="https://www.youtube.com/@AidanDoesJazz" target="_blank">@AidanDoesJazz on YouTube</a></p>
+    <iframe src="https://www.youtube.com/embed/36YULplcGQU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  
+  </section>
+
+  
+  
+  <section id="calendar" class="section calendar">
+    <h2>Upcoming Performances</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?src=ebc135d37bd78ba807bd19558f73a6093a4baaa784cb474350ed58ec73efc777%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </section>
+
+
+
+  <section class="section gallery">
+
+    <h2>Gallery</h2>
+    <img src="profile.jpg" alt="Performance Photo 1">
+    <img src="profile.jpg" alt="Performance Photo 2">
+    <img src="profile.jpg" alt="Performance Photo 3">
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:aidan.sax7@gmail.com">aidan.sax7@gmail.com</a></p>
+    <div class="social">
+      <p>Follow Aidan on Instagram:</p>
+      <a href="https://www.instagram.com/aidan_does_jazz/" target="_blank">@aidan_does_jazz</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <form action="mailto:aidan.sax7@gmail.com" method="POST" enctype="text/plain" style="display: flex; flex-direction: column; max-width: 500px; gap: 10px;">
+      <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; font-size: 1rem;">
+      <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; font-size: 1rem;">
+      <textarea name="message" placeholder="Your Message" rows="5" required style="padding: 10px; font-size: 1rem;"></textarea>
+      <button type="submit" style="padding: 12px; font-size: 1rem; background-color: #111; color: white; border: none; cursor: pointer;">Send</button>
+    </form>
+    <div class="social">
+      <p>Follow Aidan on Instagram:</p>
+      <a href="https://www.instagram.com/aidan_does_jazz/" target="_blank">@aidan_does_jazz</a>
+    </div>
+  </section>
+</div>
+<footer>
+  <p>&copy; 2025 Aidan Miland. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
