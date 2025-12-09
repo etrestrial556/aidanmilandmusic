@@ -59,6 +59,50 @@
     nav a:hover {
       opacity: 0.75;
     }
+    
+    /* MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
+  
+  header {
+    padding: 15px 12px;      /* much smaller header */
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;       /* smaller title */
+  }
+
+  header p {
+    font-size: 0.9rem;       /* smaller subtitle */
+  }
+
+  .top-photo {
+    width: 85%;              /* reduce image width */
+    max-width: 280px;        /* cleaner on mobile */
+    border-radius: 18px;
+    margin-top: 10px;
+  }
+
+  section {
+    padding: 20px 15px;      /* less padding per section */
+  }
+
+  .content {
+    font-size: 0.95rem;      /* easier to read */
+  }
+
+  .social-links a {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  iframe {
+    width: 100%;             /* video fits phone screen */
+    height: 200px;           /* smaller mobile video */
+  }
+}
 
     /* Main sections */
     .section {
